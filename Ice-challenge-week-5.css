@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+}
+.circle {
+    width: max-content;
+}
+main section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    height: 100px;
+}
+.desk{
+    width: 200px;
+    border-radius: 150px;
+    border: 20px solid rgb(112, 110, 110);
+}
+.graphic{
+    width: 200px;
+    border-radius: 150px;
+    border: 20px solid rgb(112, 110, 110)
+}
+
+.person{
+    width: 200px;
+    border-radius: 150px;
+    border: 20px solid rgb(112, 110, 110);
+}
