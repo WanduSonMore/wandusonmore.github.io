@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 286px auto;
+    grid-template-rows: 300px;
+    border-radius: 30px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+    padding-left: 30px;
+}
+
+nav{
+    display: flex;
+    grid-column: 2/3; 
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+    justify-self: center;
+    align-self: center;
+    font-size: 22px;
+}
+
+nav a:hover {
+    background-color: gray;
+    color: black;
+}

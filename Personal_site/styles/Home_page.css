@@ -7,7 +7,7 @@ header {
     background-color: white;
     display: grid;
     grid-template-columns: 286px auto;
-    grid-template-rows: 350px;
+    grid-template-rows: 300px;
     border-radius: 30px;
 }
 
@@ -17,12 +17,6 @@ header {
     justify-self: center;
     align-self: center;
     padding-left: 30px;
-}
-
-#logo_link h3 {
-    color: black;
-    justify-self: center;
-    align-self: center;
 }
 
 nav{
