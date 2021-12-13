@@ -2,12 +2,11 @@ body {
     background-color: gray;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 header {
     background-color: white;
     display: grid;
-    grid-template-columns: 286px auto;
-    grid-template-rows: 300px;
+    grid-template-columns: 350px auto;
+    grid-template-rows: 150px;
     border-radius: 30px;
 }
 
@@ -17,6 +16,10 @@ header {
     justify-self: center;
     align-self: center;
     padding-left: 30px;
+}
+
+.logo {
+    height: 150px;
 }
 
 nav{
@@ -33,11 +36,82 @@ nav a {
     justify-self: center;
     align-self: center;
     font-size: 22px;
+    border-radius: 30px;
 }
 
 nav a:hover {
     background-color: gray;
-    color: black;
+    color: white;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 500px;
+}
+
+#blackout {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+
+.blackout-img {
+    height: 500px;
+}
+
+.title-words {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: red;
+    justify-self: center;
+    padding-top: 350px;
+    /* align-self: center; */
+    font-size: 30px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 250px 1fr 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* #background_1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-color: tan;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+} */
+
+.summary {
+    background-color: tan;
+    font-size: 20px;
+    grid-row: 1/2;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+
+.stare {
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    border-radius: 30px;
+}
+
+.story_line {
+    background-color: tan;
+    font-size: 20px;
+    grid-row: 3/4;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
 }
 
 footer {
